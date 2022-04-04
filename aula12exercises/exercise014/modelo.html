@@ -16,6 +16,17 @@
             text-align: center;
         }
 
+        img {
+            width: 400px;
+            height: 250px;
+            align-items: center;
+        }
+
+        div {
+            text-align: center;
+            padding: 5px;
+        }
+
         section {
             background-color: white;
             width: 500px;
@@ -28,22 +39,23 @@
         footer {
             color: white;
             text-align: center;
+            font-style: italic;
         }
 
     </style>
 </head>
-<body>
+<body onload="carregar()">
     <header>
-        <h1>Título</h1>
+        <h1>Hora do Dia</h1>
     </header>
 
     <section>
-        <div>
-
+        <div id="msg">
+            Aqui vai aparecer a mensagem...
         </div>
 
-        <div>
-
+        <div id="foto">
+            <img id="img" src="images/manhã.jpg" alt="Manhã">
         </div>
     </section>
 

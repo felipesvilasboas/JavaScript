@@ -1,12 +1,20 @@
 var c = 1
-while (c <= 6) {
-    console.log ('Olá, tudo bem?')
+
+do {
+    console.log (`Olá, tudo bem? Passo ${c}`)           //do while
     c++
+} while (c <= 6)
 
+    
+
+
+
+/*
+while (c <= 6) {
+    console.log (`Olá, tudo bem? Passo ${c}`)          //while
+    c++
 }
-
-
-
+*/
 
 
 
@@ -14,7 +22,7 @@ while (c <= 6) {
 /*
 console.log ('Olá, tudo bem?')
 console.log ('Olá, tudo bem?')
-console.log ('Olá, tudo bem?')
+console.log ('Olá, tudo bem?')                        //Sem repetição
 console.log ('Olá, tudo bem?')
 console.log ('Olá, tudo bem?')
 console.log ('Olá, tudo bem?')
